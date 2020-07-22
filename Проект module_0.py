@@ -17,7 +17,7 @@ def guessing_the_number(guess_number):
         
     while average != guess_number:
         count_attempts += 1
-        average = int(np.average([max_value, min_value]))
+        average = int(np.mean([max_value, min_value]))
         
         if guess_number <= average:
             max_value = average
