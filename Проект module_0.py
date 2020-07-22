@@ -1,6 +1,6 @@
 import numpy as np
-guess_number = np.random.randint(1,101)
-print ("Загадано число от 1 до 100.")
+guess_number = np.random.randint(1, 101)
+print("Загадано число от 1 до 100.")
 
 
 def guessing_the_number(guess_number):
